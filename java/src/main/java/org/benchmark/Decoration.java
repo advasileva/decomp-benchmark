@@ -5,9 +5,8 @@ import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 
 @BenchmarkMode(Mode.AverageTime)
-@Fork(1)
-// @Fork(10)
-@Warmup(iterations = 1)
+@Fork(5)
+@Warmup(iterations = 3)
 @Measurement(iterations = 5)
 public class Decoration {
     private static long numberOfIterations = 10000000L;

@@ -6,10 +6,11 @@ Execution time per 10 million operations
 
 Case | Time
 ------ | ------
-Without decorators | 1.312s
-With 1 decorator | 1.499s
-With 2 decorators | 2.316s
-With 10 decorators | 8.861s
+Without decorators | 122ms
+With 1 decorator | 122ms
+With 2 decorators | 127ms
+With 5 decorators | 408ms
+With 10 decorators | 507ms
 
 Machine: Apple M2, macOS Ventura
 
