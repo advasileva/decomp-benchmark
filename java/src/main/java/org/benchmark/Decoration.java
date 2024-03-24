@@ -7,7 +7,7 @@ import org.openjdk.jmh.infra.Blackhole;
 @BenchmarkMode(Mode.AverageTime)
 @Fork(5)
 @Warmup(iterations = 3)
-@Measurement(iterations = 5)
+@Measurement(iterations = 10)
 public class Decoration {
     private static long numberOfIterations = 10000000L;
 
