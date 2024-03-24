@@ -2,16 +2,16 @@
 
 ### Results
 
-Execution time per 10 billion operations
+Execution time per 10 million operations
 
 Case | Time
 ------ | ------
-Without decorators | 8.648s
-With 1 decorator | 32.642s
-With 2 decorators | 32.642s
-With 10 decorators | 32.642s
+Without decorators | 1.312s
+With 1 decorator | 1.499s
+With 2 decorators | 2.316s
+With 10 decorators | 8.861s
 
-Machine: Windows 10 21H2 and Intel(R) Core(TM) i5-8265U at 1.60GHz
+Machine: Apple M2, macOS Ventura
 
 ### Usage
 

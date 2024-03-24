@@ -7,11 +7,11 @@ public final class LoudAnimal extends WrappedAnimal {
 
     @Override
     public String sound(String suffix) {
-        String volume = raiseVolume();
-        return animal.sound(suffix + volume);
+        raiseVolume();
+        return animal.sound(suffix);
     }
 
-    private String raiseVolume() {
-        return "Volume raised";
+    private void raiseVolume() {
+        return;
     }
 }
